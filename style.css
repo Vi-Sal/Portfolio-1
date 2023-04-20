@@ -20,9 +20,11 @@ header {
 	position: sticky;
 	top: 0;
 	z-index: 2;
-	overflow: hidden;
 }
 main {
+	overflow: hidden;
+}
+.nav-bar{
 	overflow: hidden;
 }
 .nav-bar-container {
@@ -889,9 +891,6 @@ footer {
 		min-width: 200px;
 		width: 90%;
 		/* min-height: 70%; */
-	}
-	.yourInfo {
-		grid-auto-rows: 30px 60px 60px 60px 60px 60px;
 	}
 	.yourInfo-content h1,
 	.myInfo-get-in-touch h1 {
